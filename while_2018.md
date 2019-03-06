@@ -5,7 +5,8 @@
 ---
 
 ## 迴圈的用處
-- 讓電腦做重複的事情
+* 讓電腦做重複的事情
+
 ```cpp
 std::cout << 1 << std::endl;
 std::cout << 2 << std::endl;
@@ -21,7 +22,8 @@ std::cout << 600 << std::endl;
 ---
 
 ## while 的用法
-- 當 x <= 600 時， 輸出 x。
+* 當 x <= 600 時， 輸出 x。
+
 ```cpp
 int x = 1;
 while (x <= 600) {
@@ -56,6 +58,7 @@ https://goo.gl/Fub8pG
 ---
 
 ## 練習
+[階乘](https://neoj.sprout.tw/problem/107/)
 
 ---
 
@@ -63,7 +66,8 @@ https://goo.gl/Fub8pG
 
 ----
 
-- 偷懶，不加大括號（限一行）
+* 偷懶，不加大括號（限一行）
+
 ```cpp
 int x = 1;
 while (x <= 600)
@@ -72,7 +76,8 @@ while (x <= 600)
 
 ----
 
-- 無限迴圈
+* 無限迴圈
+
 ```cpp
 int x = 1;
 while (x <= 600)
@@ -82,13 +87,14 @@ x 值不變，永遠小於等於 600
 
 ----
 
-- 再包一層迴圈或判斷
-建質數表
+* 再包一層迴圈或判斷
+* 建質數表
+
 ```cpp
 int range = 100;
 int test_prime = 2;
 while(test_prime <= range){
-    bool is_still_prime = 2;
+    bool is_still_prime = 1;
     int divisor = 2;
     while(divisor < test_prime){
         if(test_prime % divisor == 0)
@@ -103,7 +109,8 @@ while(test_prime <= range){
 
 ----
 
-- 被跳過
+* 被跳過
+
 ```cpp
 int x = 31995;
 while (x <= 600)
@@ -117,8 +124,9 @@ x 一開始就大於 600
 
 ----
 
-- do-while
-- 不會一開始就被跳過
+* do-while
+* 不會一開始就被跳過
+
 ```cpp
 int x = 31995;
 do{
