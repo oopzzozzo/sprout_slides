@@ -239,7 +239,7 @@ std::cout << "x = " << x << "\ny = " << y << std::endl;
 ```cpp
 #include<iostream>
 int main(){
-  int a1, b1, c1, int a2, b2, c2;
+  int a1, b1, c1, a2, b2, c2;
   std::cout << "solving system of linear equations\n\n";
   std::cout << " a1*x + b1*y = c1\n a2*x + b2*y = c2\n\n";
   std::cout << "> a1 b1 c1 := ";
